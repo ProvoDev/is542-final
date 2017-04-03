@@ -4,131 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-  <!--
-    Notice the use of %PUBLIC_URL% in the tag above.
-    It will be replaced with the URL of the `public` folder during the build.
-    Only files inside the `public` folder can be referenced from the HTML.
-
-    Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-    work correctly both with client-side routing and a non-root public URL.
-    Learn how to configure a non-root public URL by running `npm run build`.
-  -->
   <title>Cross Country Skiing</title>
-  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
 </head>
 <body>
 <div id="slide"></div>
-<!--
-  This HTML file is a template.
-  If you open it directly in the browser, you will see an empty page.
 
-  You can add webfonts, meta tags, or analytics to this file.
-  The build step will place the bundled scripts into the <body> tag.
-
-  To begin the development, run `npm start`.
-  To create a production bundle, use `npm run build`.
--->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script>
   // JavaScript Document
   var isViewing = false;
-  function expandBox(boxId) {
 
-    var boxImg = $(boxId).next();
-    var parentId = $(boxId).parent();
-    var boxImgFull = $(boxId).siblings(".dwn-full-img");
-
-    // $(boxImg).css('height', '500px');
-    // $(boxImg).css('width', '500px');
-    $(boxImg).hide();
-
-    // $(boxImg).css('z-index', '20001');
-    // $(boxImg).css('top', '202px');
-    // $(boxImg).css('left', '102px');
-    $(boxImg).css('border-radius', '10px');
-
-    var boxTitle = $(parentId).find('.dwn-main-title');
-    console.log(boxTitle);
-
-
-    $(boxTitle).css('z-index', '20002');
-    $(boxTitle).css('top', '70px');
-    $(boxTitle).css('left', '62px');
-    $(boxTitle).css('font-size', '100px');
-    $(boxTitle).css('width', '1156px');
-    $(boxTitle).css('text-align', 'center');
-
-
-    var boxBody = $(parentId).find('.dwn-main-body');
-    $(boxBody).show();
-
-    var boxSub = $(parentId).find('.dwn-main-subtitle');
-    $(boxSub).show();
-
-    $(boxId).css('height', '1100px');
-    $(boxId).css('width', '1156px');
-    $(boxId).css('height', '800px');
-    $(boxId).css('top', '62px');
-    $(boxId).css('left', '62px');
-    $(boxId).css('z-index', '20000');
-    $('#shade_box').show();
-    $('#close_btn').show();
-    $(boxImgFull).show(500);
-
-
-    $('#close_btn').click(function() {
-      $(boxId).removeAttr('style');
-      $(boxImg).removeAttr('style');
-      $(boxTitle).removeAttr('style');
-      $(boxBody).hide();
-      $('#close_btn').hide();
-      $('#shade_box').hide();
-      $('.dwn-main-subtitle').hide();
-      $('.dwn-full-img').hide();
-    });
-
-  }
 
   $(document).ready(function() {
-    $('.dwn-full-img').hide();
-    $('#shade_box').hide();
-    $('#close_btn').hide();
-    $('.dwn-main-body').hide();
-    $('.dwn-main-subtitle').hide();
-    $('#menu').hide();
-    moveRight();
-
-    $('#dwn_item_1').click(function() {
-      expandBox('#item_box_1');
-    });
-
-    $('#dwn_item_2').click(function() {
-      expandBox('#item_box_2');
-    });
-
-    $('#dwn_item_3').click(function() {
-      expandBox('#item_box_3');
-    });
-
-    $('#dwn_item_4').click(function() {
-      expandBox('#item_box_4');
-    });
-
-    $('#dwn_item_5').click(function() {
-      expandBox('#item_box_5');
-    });
-
-    $('#dwn_item_6').click(function() {
-      expandBox('#item_box_6');
-    });
-
-//        $('#save-btn').click(function() {
-//          $('#saver').hide();
-//          $('#menu').show();
-//          isViewing = true;
-//        });
-
-
 
     $('#checkbox').change(function(){
       setInterval(function () {
