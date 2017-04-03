@@ -27,9 +27,14 @@ class SkiProfile extends Component {
             return (
                 <div className="ski-profile-box">
                     <div className="ski-profile-inner">
+                        <div className="ski-col">
+                            <img src={skiiers[this.props.skiierId].profile_img} alt="Missing skiier...." />
+                        </div>
+                        <div className="ski-col">
+                            <a>{skiiers[this.props.skiierId].name}</a>
+                            <p>{skiiers[this.props.skiierId].bio}</p>
+                        </div>
                         <div onClick={this.props.handleProfileClick} id="close_btn">close</div>
-                        <h1>Profile!! {skiiers[this.props.skiierId].name}</h1>
-                        <p>{skiiers[this.props.skiierId].bio}</p>
                     </div>
                 </div>
             );
