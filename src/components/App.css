@@ -125,30 +125,6 @@ html, body{
   line-height: 100px;
 }
 
-.connect-line-1{
-  position: absolute;
-  height: 45px;
-  border-bottom: 10px solid #1BA1BF;
-  width: 70px;
-  left: 340px;
-
-}
-
-
-.connect-line-center{
-  position: absolute;
-  top: 150px;
-  height: 300px;
-  border-bottom: 10px solid #1BA1BF;
-  border-left: 10px solid #1BA1BF;
-  width: 200px;
-  left: 400px;
-  border-radius: 10px;
-}
-
-.side-nav-body:hover{
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
 .side-nav-arrow{
   position: absolute;
   left: 300px;
@@ -287,42 +263,6 @@ html, body{
   z-index: 9999;
 }
 
-.vid-full-btn{
-  position: absolute;
-  top: 750px;
-  left: 620px;
-  width: 400px;
-  height: 75px;
-  z-index: 10000;
-  background-color: #474F59;
-  text-align: center;
-  font-family: 'Ostrich Sans';
-  letter-spacing: 15px;
-  color: #fff;
-  font-size: 40px;
-  line-height: 75px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.2s ease-in-out;
-}
-
-.vid-close{
-  position: absolute;
-  top: 20px;
-  left: 0;
-  width: 140px;
-  height: 50px;
-  z-index: 100000;
-  background-color: #474F59;
-  text-align: center;
-  font-family: 'Ostrich Sans';
-  color: #fff;
-  font-size: 30px;
-  line-height: 50px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.2s ease-in-out;
-  letter-spacing: 10px;
-}
-
 .back-btn{
   position: absolute;
   top: 10px;
@@ -347,27 +287,6 @@ html, body{
   border-right: 50px solid transparent;
   border-left: 50px solid transparent;
   border-bottom: 50px solid #474F59;
-}
-
-/* CSS Document */
-
-/* Ostrich Sans */
-@font-face {
-  font-family: 'Ostrich Sans';
-  src: url('../fonts/OstrichRegular.ttf');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Ostrich Sans';
-  src: url('../fonts/OstrichBold.ttf');
-  font-weight: 700;
-  font-style: bold;
-}
-@font-face {
-  font-family: 'Ostrich Sans';
-  src: url('../fonts/OstrichBlack.ttf');
-  font-weight: 600;
 }
 
 .hidden {
@@ -396,108 +315,6 @@ html, body{
   border-top: 100px solid transparent;
   border-bottom: 100px solid transparent;
   border-right: 100px solid #474F59;
-}
-
-.dwn-box-1{
-  top: 200px;
-  left: 140px;
-  background-color: #26A68E;
-}
-
-.dwn-box-2{
-  top: 400px;
-  left: 140px;
-  background-color: #D9A404;
-}
-
-.dwn-box-3{
-  top: 600px;
-  left: 140px;
-  background-color: #1BA1BF;
-}
-
-.dwn-box-4{
-  top: 200px;
-  left: 690px;
-  background-color: #D85051;
-}
-
-.dwn-box-5{
-  top: 400px;
-  left: 690px;
-  background-color: #955BA5;
-}
-
-.dwn-box-6{
-  top: 600px;
-  left: 690px;
-  background-color: #DB6A3B;
-}
-
-.dwn-main-img-1{
-  top: 210px;
-  left: 150px;
-}
-
-.dwn-main-img-2{
-  top: 410px;
-  left: 150px;
-}
-
-.dwn-main-img-3{
-  top: 610px;
-  left: 150px;
-}
-
-.dwn-main-img-4{
-  top: 210px;
-  left: 700px;
-}
-
-.dwn-main-img-5{
-  top: 410px;
-  left: 700px;
-}
-
-.dwn-main-img-6{
-  top: 610px;
-  left: 700px;
-}
-
-.dwn-main-text-1{
-  top: 200px;
-  left: 300px;
-  width: 100px;
-}
-
-.dwn-main-text-2{
-  top: 400px;
-  left: 300px;
-  width: 100px;
-}
-
-.dwn-main-text-3{
-  top: 600px;
-  left: 300px;
-  width: 100px;
-}
-
-.dwn-main-text-4{
-  top: 200px;
-  left: 850px;
-  width: 100px;
-}
-
-.dwn-main-text-5{
-  top: 400px;
-  left: 850px;
-  width: 100px;
-}
-
-.dwn-main-text-6{
-  top: 600px;
-  left: 850px;
-  width: 100px;
 }
 
 .dwn-main-box{
@@ -638,33 +455,9 @@ html, body{
   text-align: center;
 }
 
-.left-btn{
-  left: 200px;
-}
-
-.right-btn{
-  left: 800px;
-
-}
-
 .dwn-main-arw{
   position: absolute;
   top: 900px;
-}
-
-.left-btn-arw{
-  left: 150px;
-  border-top: 50px solid transparent;
-  border-bottom: 50px solid transparent;
-  border-right: 50px solid #474F59;
-}
-
-.right-btn-arw{
-  left: 1048px;
-  border-top: 50px solid transparent;
-  border-bottom: 50px solid transparent;
-  border-left: 50px solid #474F59;
-
 }
 
 
@@ -711,20 +504,6 @@ a.control_prev, a.control_next {
   font-size: 18px;
   opacity: 0.8;
   cursor: pointer;
-}
-
-a.control_prev:hover, a.control_next:hover {
-  opacity: 1;
-  -webkit-transition: all 0.2s ease;
-}
-
-a.control_prev {
-  border-radius: 0 2px 2px 0;
-}
-
-a.control_next {
-  right: 0;
-  border-radius: 2px 0 0 2px;
 }
 
 .slider_option {
@@ -859,24 +638,6 @@ a.control_next {
   height: 1024px;
   background-color: rgba(0,0,0,0.6);
   z-index: 19999;
-}
-
-#close_btn{
-  position: absolute;
-  top: 80px;
-  left: 56px;
-  width: 140px;
-  height: 50px;
-  z-index: 100000;
-  background-color: #474F59;
-  text-align: center;
-  font-family: 'Ostrich Sans';
-  color: #fff;
-  font-size: 30px;
-  line-height: 50px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.2s ease-in-out;
-  letter-spacing: 10px;
 }
 
 .dwn-main-box-btn{
@@ -1026,13 +787,13 @@ a.control_next {
 
 .ski-col > img {
   position: absolute;
-  top: 50px;
+  top: 150px;
   left: 50px;
 }
 
 .ski-col > a {
   position: absolute;
-  top: 50px;
+  top: 150px;
   left: 600px;
   font-family: "Ostrich Sans";
   font-weight: bold;
@@ -1043,9 +804,9 @@ a.control_next {
 
 .ski-col > p {
   position: absolute;
-  top: 100px;
+  top: 200px;
   left: 600px;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 24px;
   width: 500px;
 }
